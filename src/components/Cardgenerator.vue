@@ -3,7 +3,7 @@
   <div>
     <div>
       <label for="csvInput" style="display: block">Select CSV File</label>
-
+      <div>Download this template <a href="./product_template.csv" download style="color:red">Card generator template</a> and add your own product to generate the cards.</div>
       <input @change="handleFileChange" class="p-2 my-1" id="csvInput" name="file" type="file" />
       <div class="row" style="align-items: center;">
       <input placeholder="enter start" id="start" class="col-md-3 form-control" v-model="start" />

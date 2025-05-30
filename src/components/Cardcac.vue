@@ -1,11 +1,11 @@
 <!-- Cardcac.vue -->
 <template>
   <div
-    class="col-4"
-    style="height: 188.44px; width: 359.33px; float: left; padding: 15px"
+    class="col-4 border"
+    style="width: 359.33px; float: left; padding: 15px;"
   >
-    <div class="d-flex" style="height: 85%; width: 90%">
-      <div class="mt-2 pl-3" style="height: 100px; width: 200px">
+    <div class="" style="height: 85%; width: 90%">
+      <div class="my-2 mx-auto" style="height: 100px; width: 200px">
         <img src="/images/asset2.jpg" style="width: 100%; height: auto" />
       </div>
       <div class="d-flex flex-column">
@@ -13,11 +13,10 @@
           <Barcode :value="Upc" :width="2" :height="40" />
         </div>
         <div
-          class="pl-4"
+          class=""
           style="
-            height: 300px;
-            width: 80%;
-            font-size: 9px;
+            width: 100%;
+            font-size: 14px;
             font-weight: bolder;
             text-overflow: ellipsis;
           "
